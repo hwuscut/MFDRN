@@ -1,14 +1,13 @@
-<<<<<<< HEAD
 # IMDN
 Deep learning-based image super-resolution restoration for mobile infrared imaging system
 
 # Requirements
-python 3.6;
-pytorch==0.4.0;
-pillow;
-h5py;
-matplotlib;
-numpy.
+python 3.6
+pytorch==0.4.0
+pillow
+h5py
+matplotlib
+numpy
 
 # Usage
 First, download the training dataset and place it in IR_ In the data folder;
