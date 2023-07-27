@@ -12,12 +12,6 @@ numpy
 
 # Usage
 First, download the training dataset and place it in IR_ In the data folder
+Second, train the network  python train_MFDRN_2.py
+Third, do testing  python test_MFDRN_2.py  --test_hr_folder ./Test_Datasets/HR/ --test_lr_folder ./Test_Datasets/LR_2/ --output_folder ./results/MFDRN_duibi_x2 --checkpoint ./checkpoint_MFDRN_duibi_x2/epoch_100.pth --upscale 2
 
-Second, train the network
-python train_MFDRN_2.py
-
-Third, do testing
-python test_MFDRN_2.py  --test_hr_folder ./Test_Datasets/HR/ --test_lr_folder ./Test_Datasets/LR_2/ --output_folder ./results/MFDRN_duibi_x2 --checkpoint ./checkpoint_MFDRN_duibi_x2/epoch_100.pth --upscale 2
-=======
-# MFDRN
->>>>>>> 4cc4b69b3a7ac28534528e590c7fb429a32df7ee
