@@ -1,4 +1,4 @@
-# IMDN
+# MFDRNet
 Deep learning-based image super-resolution restoration for mobile infrared imaging system
 
 # Requirements
